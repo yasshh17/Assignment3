@@ -1,0 +1,89 @@
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Book Collection</title>
+    
+</head>
+
+<body>
+
+    
+    <header>
+        <h1>Vallejo Library</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="libraryCard.html">Library Card</a></li>
+                <li><a href="generalEnquiries.html">Enquiries</a></li>
+                <li><a href="bookCollection.html">Book Collection</a></li>
+                <li><a href="reserveaBook.html">Reserve Your Book</a></li>
+                <li><a href="latestNews.html">Latest News</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main>
+        <section>
+            <h2> Top Picks </h2>
+
+            <article>
+                <h3> Think Again</h3>
+                <p>Author: Adam Grant</p>
+                <p>Genre: Fiction</p>
+                <p>Total Copies Available: 8</p>
+                <p>Total Number of Copies: 15</p>
+                <button onclick="reserveBook('Think Again')">Reserve</button>
+            </article>
+
+            <article>
+            <h3> Tears of the Dragon</h3>
+                <p>Author: Bryan Davis</p>
+                <p>Genre: Fiction</p>
+                <p>Total Copies Available: 20</p>
+                <p>Total Number of Copies: 30</p>
+                <button onclick="reserveBook('Tears of the Dragon')">Reserve</button>
+            </article>
+
+            <article>
+                <h3>Never Quite On A Bad Day</h3>
+                <p>Author: Phebe Trotman</p>
+                <p>Genre: Non Fiction</p>
+                <p>Total Copies Available: 10</p>
+                <p>Total Number of Copies: 15</p>
+                <button onclick="reserveBook('Never Quite On A Bad Day')">Reserve</button>
+            </article>
+
+            <article>
+                <h3>City Under One Roof </h3>
+                <p>Author: Iris Yamashita</p>
+                <p>Genre: Fiction</p>
+                <p>Total Copies Available: 8</p>
+                <p>Total Number of Copies: 10</p>
+                <button onclick="reserveBook('City Under One Roof')">Reserve</button>
+            </article>
+
+
+
+            
+
+        </section>
+    </main>
+
+   
+    <footer>
+        <p>&copy; Vallejo Library. All rights reserved.</p>
+    </footer>
+
+   
+    <script>
+        function reserveBook(bookName) {
+            
+            alert(`Book "${bookName}" reserved successfully!`);
+        }
+    </script>
+
+</body>
+
+</html>

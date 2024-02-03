@@ -1,0 +1,76 @@
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Reserve Your Book</title>
+    
+</head>
+<body>
+
+    <header>
+        <h1>Vallejo Library</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="libraryCard.html">Library Card</a></li>
+                <li><a href="generalEnquiries.html">Enquiries</a></li>
+                <li><a href="bookCollection.html">Book Collection</a></li>
+                <li><a href="reserveaBook.html">Reserve Your Book</a></li>
+                <li><a href="latestNews.html">Latest News</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   
+    <main>
+        <section>
+            <h2>Reserve Your Book</h2>
+            <p>Welcome to our reservation system. Please follow the steps below to reserve a book:</p>
+            <ol>
+                <li>Explore our <a href="bookCollection.html">Book Collection</a> to find the book you want.</li>
+                <li>Click the "Reserve" button on the book's page.</li>
+                <li>Complete the reservation form with your details.</li>
+                <li>Submit the form.</li>
+                <li>Visit the Vallejo library to pick up your reserved book.</li>
+            </ol>
+        </section>
+
+       
+        <section>
+            <h2>Book Reservation Form</h2>
+            <form action="#" method="post" id="reservationForm">
+                <label for="fisrtName">First Name:</label>
+                <input type="text" id="FirstName" name="FirstName" required>
+
+                <label for="LastName">Last Name:</label>
+                <input type="text" id="LastName" name="LastName" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+        
+                <label for="bookName">Book Name:</label>
+                <input type="text" id="bookTitle" name="bookTitle" readonly>
+                
+        
+                <label for="reservationDate">Preferred Pickup Date:</label>
+                <input type="date" id="reservationDate" name="reservationDate" required>
+        
+                <label for="additionalComments">Additional Comments:</label>
+                <textarea id="additionalComments" name="additionalComments" rows="4"></textarea>
+        
+                <button type="submit">Submit Reservation</button>
+            </form>
+        </section>
+    </main>
+
+   
+    <footer>
+        <p>Contact us at <a href="Yash:vallejolibrary@xyz.com">vallejolibrary@xyz.com</a></p>
+        <p>&copy; Vallejo Library. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
